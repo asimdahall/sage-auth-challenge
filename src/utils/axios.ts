@@ -1,7 +1,7 @@
 import axios from "axios";
 import { getLSToken } from "./tokens";
 
-const baseURL = "http://65.0.89.70:5252/api/";
+const baseURL = "https://auth-test.saze.io/api/";
 
 const instance = axios.create({
   baseURL,
